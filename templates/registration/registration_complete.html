@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+{% block content %}
+
+
+<section id="main">
+			<header>
+				<h1>Sign Up<a href="/"><i class="fa fa-home" style="float: right;"></i></a></h1>
+				<p style="margin-right: 2em;">For An Account</p>
+			</header>
+			<hr />
+			<h2>{% trans "You are now registered." %}</h2> 
+			<h1 style="font-size: 4em;">{% trans "Activation email sent." %}</h1>
+			<p>You will be redirected automatically, if not, use the following button.</p> 
+			<hr />
+			<ul class="actions">
+				<li><a href="/" class="button">HOME</a></li>
+			</ul>
+		</section>
+		
+{% endblock %}

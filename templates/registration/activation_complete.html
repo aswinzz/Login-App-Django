@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+{% block content %}
+
+
+<header class="intro">
+		<div class="intro-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h1 class="brand-heading" style="font-size: 7em;">Account Activated</h1>
+						<p class="intro-text">You will be redirected automatically, if not, use the button below.
+							<br></p>
+							<a href="{% url 'auth_login' %}"><button class="btn btn-danger btn-lg">Login</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		
+{% endblock %}

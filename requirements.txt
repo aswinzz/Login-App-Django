@@ -1,0 +1,7 @@
+confusable-homoglyphs==3.0.0
+Django==1.11.11
+Django-Accounts==0.1
+django-crispy-forms==1.7.2
+django-registration==2.4.1
+django-widget-tweaks==1.4.1
+pytz==2018.3
